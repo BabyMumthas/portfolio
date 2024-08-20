@@ -88,3 +88,10 @@ nav ul li a:hover{
 border-radius:500% ;
 width: 227px;
 }
+.images img {
+    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+
+
+
