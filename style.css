@@ -6,13 +6,15 @@
 
 .header{
   position: relative ;  
-  width: 100%;
+  width: 85%;
   height: 100vh;
-  background:white;
+  background:rgb(255, 255, 255)
 }
-.logo{
-    width: 100px;
-}
+.logo
+{
+    border-radius:500% ;
+    width: 60px;
+    }
 nav{
     display: flex;
     width: 100%;
@@ -35,13 +37,54 @@ nav  ul li{
     margin: 10px 20px;
     width: max-content;
 }
+.details{
+    margin-top: 15%;
+    margin-left: 8%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details h1
+{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+span{
+    color: blueviolet;
+}
+.one{
+    color: blueviolet;
+}
+.two{
+    color: blueviolet;
+}
+.bee{
+    color: rgb(0, 0, 0);
+}
+.beeku{
+    color: rgb(0, 0, 0);
+}
 nav ul li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 nav ul li a:hover{
     color: rgb(225, 5, 5);
 }
+.images{
 
-
+    position: absolute;
+    bottom: 1500px;
+    top: 150px;
+    right: -100px;
+    padding:- 0px;
+}
+.images img{
+    width: 1546px; 
+    height:345px;;
+}
+.images img
+ {
+border-radius:500% ;
+width: 227px;
+}
