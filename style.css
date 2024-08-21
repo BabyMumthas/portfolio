@@ -1,97 +1,120 @@
-*{
-    margin:0 ;
+* {
+    margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} 
-
-.header{
-  position: relative ;  
-  width: 85%;
-  height: 100vh;
-  background:rgb(255, 255, 255)
 }
-.logo
-{
-    border-radius:500% ;
+
+.header {
+    position: relative;
+    width: 85%;
+    height: 100vh;
+    background: rgb(255, 255, 255)
+}
+
+.logo {
+    border-radius: 500%;
     width: 60px;
-    }
-nav{
+}
+.image-wrapper
+{
+    display: flex;
+    g
+}
+nav {
     display: flex;
     width: 100%;
-    margin: 20px; ;
+    margin: 20px;
+    ;
     padding: 20px 0;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.beeku{
+
+.beeku {
     display: flex;
 }
-nav ul 
-{
+
+nav ul {
     display: flex;
-    
+
 }
-nav  ul li{
+
+nav ul li {
     display: inline-block;
-    list-style:none;
+    list-style: none;
     margin: 10px 20px;
     width: max-content;
 }
-.details{
+
+.details {
     margin-top: 15%;
     margin-left: 8%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.details h1
-{
+
+.details h1 {
     font-size: 50px;
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
-span{
+.color-red {
+    color: red;
+}
+
+.color-purple {
     color: blueviolet;
 }
-.one{
+
+.one {
     color: blueviolet;
 }
-.two{
+
+.two {
     color: blueviolet;
 }
-.bee{
+
+.bee {
     color: rgb(0, 0, 0);
 }
-.beeku{
+
+.beeku {
     color: rgb(0, 0, 0);
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(225, 5, 5);
 }
-.images{
 
-    position: absolute;
-    bottom: 1500px;
-    top: 150px;
-    right: -100px;
-    padding:- 0px;
+.images {
+   
 }
-.images img{
-    width: 1546px; 
-    height:345px;;
-}
-.images img
- {
-border-radius:500% ;
-width: 227px;
-}
+
 .images img {
-    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+    width: 1546px;
+    height: 345px;
+    ;
+}
+
+.images img {
+    border-radius: 500%;
+    width: 227px;
+}
+
+.images img {
+    object-fit: cover;
 }
 
 
 
 
+@media(max-width:600px) {
+   .image-wrapper{
+    flex-direction: column;
+   }
+}
