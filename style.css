@@ -28,6 +28,8 @@ body {
 
 }
 
+
+
 nav {
     display: flex;
     width: 100%;
@@ -119,7 +121,9 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-
+navbar {
+    display: none;
+}
 
 
 @media(max-width:600px) {
@@ -135,7 +139,35 @@ nav ul li a:hover {
     .image-wrapper {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         display: none;
+    }
+
+    navbar {
+        display: flex;
+    }
+
+    .space {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bar {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        gap: 6px;
+        width: 30px;
+
+    }
+
+    .a {
+
+        height: 4px;
+        width: 100%;
+        background-color: black;
+        border-radius: 2px;
     }
 }
